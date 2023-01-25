@@ -1,3 +1,6 @@
+body {
+  margin: 20px;
+}
 h1 {
   color: red;
   font-family: "Playfair Display", serif;
@@ -6,4 +9,12 @@ h1 {
 
 p {
   font-family: "Poppins", sans-serif;
+}
+.instagram-icon {
+  font-size: 50px;
+  color: blueviolet;
+  transition: all 150ms ease-in-out;
+}
+.instagram-icon:hover {
+  font-size: 75px;
 }
