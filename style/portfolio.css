@@ -21,6 +21,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  margin: 10px 0px;
 }
 
 h4 {
@@ -35,7 +36,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -46,10 +47,10 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   color: #272142;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
@@ -82,7 +83,7 @@ p {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -155,7 +156,16 @@ footer .social-links a:hover {
 
 @media (max-width: 992px) {
   h1 {
-    font-size: 44px;
+    font-size: 48px;
+    margin-top: 6px;
+  }
+  .hero p {
+    font-size: 28px;
+    opacity: 90%;
+  }
+  .hero h2 {
+    padding: 0px 25px;
+    opacity: 90%;
   }
   .hero {
     padding: 80px 20px;
