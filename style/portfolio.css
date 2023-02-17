@@ -79,7 +79,7 @@ p {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content h1 {
@@ -107,6 +107,9 @@ p {
 .my-image {
   border-radius: 20px;
   width: 450px;
+}
+.active {
+  color: var(--branding-color) !important;
 }
 
 @media (max-width: 992px) {
