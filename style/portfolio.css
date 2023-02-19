@@ -24,7 +24,7 @@ h1 {
   margin: 10px 0px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -181,5 +181,8 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 0px;
+  }
+  .content h1 {
+    font-size: 48px;
   }
 }
